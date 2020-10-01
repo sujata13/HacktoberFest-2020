@@ -1,0 +1,120 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: black;
+    max-width: 100%;
+}
+
+h1 {
+    color: whitesmoke;
+    margin-left: 35%;
+    margin-top: 10%;
+    width: 55%;
+}
+
+h3 {
+    margin-left: 15%;
+    color: #F00BB8;
+    letter-spacing: 3px;
+}
+
+#quote {
+    margin-left: 35%;
+    color: #0BC5F0;
+    font-weight: 900;
+    font-style: italic;
+}
+
+#product {
+    color: #65E5E2;
+    letter-spacing: 2px;
+}
+
+@keyframes blinker {
+    25% {
+        color: rgb(182, 54, 54);
+    }
+    75% {
+        opacity: 0;
+    }
+}
+
+.warning {
+    animation: blinker 2s linear infinite;
+    color: #F0270F;
+    letter-spacing: 3px;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* .blink_me {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+} */
+
+p {
+    margin-left: 18%;
+    color: #F07B20;
+    font-weight: 500;
+    font-family: cursive;
+}
+
+
+/* button {
+    margin-left: 50%;
+    background-color: #0F70F0;
+    font-family: fantasy;
+    font-size: medium;
+    width: 200px;
+    height: 50px;
+    border-style: groove;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+} */
+
+
+/* Style buttons */
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+/* Darker background on mouse-over */
+
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+input {
+    margin-left: 25%;
+}
+
+a {
+    color: greenyellow;
+}
+
+@media screen and (max-width: 800px) {
+    h1,
+    h3,
+    p {
+        width: 100%;
+    }
+}
+
+iframe {
+    margin-left: 25%;
+}

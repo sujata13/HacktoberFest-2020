@@ -1,0 +1,233 @@
+//author:nikhilsolomon -> https://github.com/nikhilSolomon
+//description->Linked list implementation of stack 
+
+#include<iostream>
+#include<stdio.h>
+#include<stdlib.h>
+
+using namespace std;
+
+struct node
+{
+    int data;
+    struct node *next;
+}*head;
+void in_from_front(int value)
+{
+    struct node *var;
+    var=(struct node *)malloc(sizeof (struct node));
+    var->data=value;
+    if(head==NULL)
+    {
+        head=var;
+        head->next=NULL;
+    }
+    else
+    {
+        var->next=head;
+        head=var;
+    }
+}
+void in_from_end(int value){
+
+    struct node *temp;
+    struct node *var;
+    temp=head;
+    var=(struct node *)malloc(sizeof (struct node));
+    var->data=value;
+    if(head==NULL)
+    {
+        head=var;
+        head->next=NULL;
+    }
+    else
+    {
+        while(temp->next!=NULL)
+        {
+            temp=temp->next;
+        }
+        var->next=NULL;
+        temp->next=var;
+    }
+}
+void in_after_given(int value, int loc)
+{
+    struct node *var2,*temp;
+    struct node *var;
+    var=(struct node *)malloc(sizeof (struct node));
+    var->data=value;
+    temp=head;
+    if(head==NULL)
+    {
+        head=var;
+        head->next=NULL;
+    }
+    else
+    {
+        while(temp->data!=loc)
+        {
+            temp=temp->next;
+
+        }
+        var2=temp->next;
+        temp->next=var;
+        var->next=var2;
+    }
+}
+int del_from_front(){
+    struct node *temp;
+    temp=head;
+    if(head==NULL){
+        cout<<"The list is empty\n";
+    }
+    else{
+        head=temp->next;
+        free(temp);
+    }
+    return 0;
+}
+int del_from_end(){
+    struct node *temp, *var;
+    temp=head;
+    if(head==NULL){
+        cout<<"The list is empty\n";
+    }
+    else{
+        while(temp->next != NULL){
+            var=temp;
+            temp=temp->next;
+        }
+        if(temp ==head){
+            head=temp->next;
+            free(temp);
+            return 0;
+        }
+        cout<<"Data deleted from list is \n"<<temp->data;
+        var->next=NULL;
+        free(temp);
+        return 0;
+    }
+}
+int del_at_data(int value){
+    struct node *temp,*var;
+    temp=head;
+    if(head==NULL){
+        cout<<"The list is empty\n";
+    }
+    else{
+        while(temp!=NULL){
+            if(temp->data == value){
+                if(temp==head){
+                    head=temp->next;
+                    free(temp);
+                    return 0;
+                }
+                else{
+                    var->next=temp->next;
+                    free(temp);
+                    return 0;
+                }
+
+            }
+            else{
+                var=temp;
+                temp=temp->next;
+            }
+        }
+        cout<<"Data deleted from list is \n"<<value;
+        return 0;
+    }
+}
+void display(){
+    struct node *temp;
+    temp=head;
+    if(temp==NULL){
+        cout<<"\nList is Empty\n";
+    }
+    else{
+        cout<<"\nElements in the List: ";
+        while(temp!=NULL){
+            cout<<" -> "<<temp->data;
+            temp=temp->next;
+        }
+        cout<<"\n";
+    }
+}
+void search(int value){
+    struct node *ptr;
+    for(ptr=head;ptr!=NULL;ptr=ptr->next){
+        if(ptr->data==value){
+            cout<<"Key found\n";
+            return;
+        }
+    }
+    cout<<"\n not found\n"<<value;
+}
+int main(){
+    int i,v,l,d,dl,k;
+    int choice;
+    
+    do{
+    	
+        cout<<"Enter the operation:\n1.Inserion\n2.Deletion\n3.Display\n4.Search\n5.Exit\n";
+        cin>>choice;
+        switch(choice){
+            case 1:
+            cout<<"\n1.Insertion from the front\n2.Insertion from the end\n3.Insertion after the given data\n";
+            cin>>i;
+            switch(i){
+                case 1:
+                cout<<"Enter the value: ";
+                cin>>v;
+                in_from_front(v);
+                break;
+                case 2:
+                cout<<"Enter the value: ";
+                cin>>v;
+                in_from_end(v);
+                break;
+                case 3:
+                cout<<"Enter the value: ";
+                cin>>v;
+                cout<<"\nEnter the data after which the value should be inserted: ";
+                cin>>l;
+                in_after_given(v,l);
+                break;
+            }
+            break;
+            case 2:
+            cout<<"\n1.Deletion from the front\n2.Deletion from the end\n3.Deletion of the given data\n";
+            cin>>d;
+            switch(d){
+                case 1:
+                del_from_front();
+                break;
+                case 2:
+                del_from_end();
+                break;
+                case 3:
+                cout<<"Enter the data which should be deleted\n";
+                cin>>dl;
+                del_at_data(dl);
+                break;
+            }
+            break;
+            case 3:
+            display();
+            break;
+            case 4:
+            cout<<"Enter the key\n";
+            cin>>k;
+            search(k);
+            break;
+            case 5:
+            cout<<"Exit program\n";
+            break;
+            default:
+            cout<<"Enter valid operation\n";
+            break;
+        }
+    }
+    while(choice!=5);
+    return 0;
+}
