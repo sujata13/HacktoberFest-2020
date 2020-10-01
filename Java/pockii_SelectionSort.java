@@ -23,14 +23,14 @@ class pockii_SelectionSort {
     private static void printArray(int[] arr) {
         System.out.println("Sorted array: ");
         for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
+            System.out.println(arr[i] + " ");
         }
         System.out.println("\n");
     }
 
     public static int[] readArray() {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter array size: ");
+        System.out.println("Enter array size: ");
         int size = sc.nextInt();
         int[] arr = new int[size];
 
