@@ -1,3 +1,8 @@
+Author:nikhilsolomon <github.com/nikhilsolomon>
+    Description: checking prime number
+
+
+
 #include <iostream>
 using namespace std;
 
