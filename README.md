@@ -33,6 +33,18 @@ About: Short Intro (Optional)
 
 Check [Contribution](/CONTRIBUTION.md) Guide Before Contribution.
 
+
+## Resources
+
+The following resources share repositories that curate tasks for beginners: 
+
+- [Awesome for Beginners](https://github.com/mungell/awesome-for-beginners)
+- [Up For Grabs](https://up-for-grabs.net/#/)
+- [Issuehub.io](http://issuehub.io/)
+- [First Timers Only](https://www.firsttimersonly.com/)
+- [Good First Issues](https://goodfirstissues.com/)
+
+
 ## Instructions:
 
 *Make sure you have a GitHub account. In case you don't have one, you can create your account by visiting https://github.com/ and clicking on ``Sign up`` option at the top right corner.*
