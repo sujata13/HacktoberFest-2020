@@ -23,3 +23,7 @@ About: Developer <br/>
 
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
+
+Name: [Jaruwan Panyaoud](https://github.com/praew1202) <br />
+Place: Thailand <br/>
+About: Developer <br/>
