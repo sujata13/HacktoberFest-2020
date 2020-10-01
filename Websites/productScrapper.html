@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="productScrapper.css">
+    <title>Product Scrapper</title>
+</head>
+
+<body>
+    <h1>The app that every one should have</h1>
+    <p id="quote">Just one click. Products from E-stores like Amazon, Flipkart and someothers in your hand</p>
+    <br>
+    <h3>Why should I use <span id="product">Product Scrapper</span> ?</h3>
+    <p>
+        Do you buy stuffs from online stores ?
+        <br> Do you spend days in searching and deciding the proper products for good price
+        <br> placeholder
+    </p>
+    <br>
+    <h3>Is it safe to use <span id="product">Product Scrapper</span></h3>
+    <p>
+        Each search requests are stored in the server for one hour from the initial request.
+        <br> As scrapping is illegal you have to take care of your self
+        <br><br> <span class="warning">The developer will not take any responsibilites for your problems raises by this application.</span>
+        <br><br> <span class="warning">XXX -- USE IT IN YOUR OWN RISK -- XXX</span>
+    </p>
+    <button id="tryit" class="btn">Try It</button>
+
+    <form method="get" action="https://github.com/hiruthic2002/scrapper/releases/tag/v0.1-alpha">
+        <p style="color: white; font-family: Arial, Helvetica, sans-serif;">
+            <input type="checkbox" required> By downloading this application I agree to the <a href="">Terms and Conditions</a>
+        </p>
+        <div style="margin-left: 45%;">
+            <button class="btn" onclick="" id="accept"><i class="fa fa-download"></i> Download</button>
+        </div>
+    </form>
+    <br>
+
+    <script>
+        $("#tryit").click(function() {
+            window.location.replace("/scrap.html");
+        });
+
+        $('#accept').click(function() {
+            if ($('input#toc').is(':checked')) {
+                return true;
+            }
+        });
+        $("a").click(function() {
+            alert("The application uses web scrapping to get the information and it is illegal\nBy downloading this application you agree that whatever problems that may arise because of this application will be solved by yourself.\nTHE DEVELOPER WILL NOT TAKE RESPONSIBILITES");
+        });
+    </script>
+
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/J87CpgwD3ds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+
+</html>
