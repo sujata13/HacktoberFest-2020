@@ -23,3 +23,8 @@ About: Developer <br/>
 
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
+
+Name: [Siddharth Shrivastav](https://github.com/damascus8) <br />
+Place: India <br /> 
+About: Developer <br/>
+
