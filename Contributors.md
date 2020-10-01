@@ -10,3 +10,7 @@ Place: India <br/>
 Name: [Padmasri](https://github.com/sujata13) <br/>
 Place: India <br/>
 About: Web developer <br/>
+
+Name: [elzodxon](https://github.com/elzodxon) <br/>
+Place: Uzbekistan <br/>
+About: Frontend web developer <br/>
