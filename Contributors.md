@@ -23,3 +23,7 @@ About: Developer <br/>
 
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
+
+Name: [Harshit Bhatt](https://github.com/harshitbhatt69) <br/>
+Place: India <br/>
+About: Developer <br/>
