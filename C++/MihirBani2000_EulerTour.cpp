@@ -35,7 +35,7 @@ int main()
 	ll n, m;
 	cout << "\nEnter no of vertices: ";
 	cin >> n;
-	cout << "\nEnter no of vertices: ";
+	cout << "\nEnter no of edges: ";
 	cin >> m;
 
 	// loop for inputing the graph and storing it in matrix
