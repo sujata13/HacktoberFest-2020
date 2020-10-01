@@ -23,3 +23,6 @@ About: Developer <br/>
 
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
+
+Name: [Pawan Gorai](https://github.com/pawank0411) <br/>
+Place: India <br/>
