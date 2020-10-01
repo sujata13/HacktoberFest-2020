@@ -23,3 +23,7 @@ About: Developer <br/>
 
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
+
+Name: [Rohit](https://github.com/jrdn) <br />
+Place: Lucknow <br /> 
+About: Web developer <br/>
