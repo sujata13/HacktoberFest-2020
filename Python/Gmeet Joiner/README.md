@@ -1,6 +1,6 @@
 # Gmeet Auto Joiner
 
-A python program to join the google meetings automatically with providing the link contining the times. Change it accordingly to your needs I am using it on my college website
+A python program to join the google meetings automatically with providing the link containing the times. Change it accordingly to your needs I am using it on my college website
 
 # New Features!
 
