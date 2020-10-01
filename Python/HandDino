@@ -136,3 +136,5 @@ while capture.isOpened():
 
 capture.release()
 cv2.destroyAllWindows()
+
+#try changing color code with your background
