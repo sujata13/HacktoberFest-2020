@@ -23,3 +23,6 @@ About: Developer <br/>
 
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
+
+Name: [Rohit Jangid](https://github.com/rohfl) <br />
+Place: India <br /> 
