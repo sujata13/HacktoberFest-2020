@@ -1,0 +1,42 @@
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Change Navigation Color */
+.collapse .custom-nav .nav-item a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.collapse .custom-nav .nav-item a:hover {
+    color: #f0aab1;
+}
+
+/* Set Image */
+
+.back-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90.2vh;
+    border-radius: 0px;
+    margin-top: 61px;
+}
+.pclass{
+    font-size: 24px;
+}
+/* Margin for header */
+.main-heading{
+    margin-top: 50px;
+}
+
+/* Mobile view for Main Heading */
+
+@media (max-width:768px){
+    .main-heading{
+        margin-top: 350px;
+        text-align: center;
+    }
+}
