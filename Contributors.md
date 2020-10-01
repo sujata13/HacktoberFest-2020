@@ -23,3 +23,8 @@ About: Developer <br/>
 
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
+
+
+Name: [Sneh](https://github.com/JoshiSneh) <br/>
+Place: India <br/>
+About: Developer <br/>
