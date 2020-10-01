@@ -23,3 +23,7 @@ About: Developer <br/>
 
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
+
+Name: [Sneha Shukla](https://github.com/Sneha8857) <br/>
+Place: India <br/>
+
