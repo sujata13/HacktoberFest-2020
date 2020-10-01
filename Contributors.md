@@ -21,6 +21,10 @@ Name: [Hitesh Goyal](https://github.com/Hiteshgoyal1711) <br/>
 Place: India <br/>
 About: Developer <br/>
 
+Name: [Kishmat Bhattarai](https://github.com/kishmat) <br/>
+Place: Nepal <br/>
+About: Developer <br/>
+
 
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
