@@ -4,7 +4,6 @@ Name: [Sujata Mishra](https://github.com/sujata13) <br/>
 Place: India <br/>
 About: MERN Stack Developer <br/>
 
-
 Name: [Chris Milson](https://gitub.com/chrismilson) <br/>
 Place: Japan <br/>
 About: Mathematician <br/>
@@ -16,10 +15,13 @@ Name: [Padmasri](https://github.com/sujata13) <br/>
 Place: India <br/>
 About: Web developer <br/>
 
-
 Name: [Kishmat Bhattarai](https://github.com/kishmat) <br/>
 Place: Nepal <br/>
 About: Developer <br/>
 
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
+
+Name: [Leonard Rizta Anugerah Perdana](https://github.com/leonardrizta) <br/>
+Place: Indonesia <br/>
+About: Developer <br/>
