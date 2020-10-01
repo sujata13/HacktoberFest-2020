@@ -23,3 +23,7 @@ About: Developer <br/>
 
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
+
+Name: [Nikhil Shrivastava](https://github.com/NikhilShrivastava) <br/>
+Place: India <br/>
+About: Developer <br/>
