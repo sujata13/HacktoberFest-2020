@@ -23,3 +23,7 @@ About: Developer <br/>
 
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
+
+Name: [Pranav Annam](https://github.com/pranavannam2805) <br />
+Place: India <br /> 
+About: Android Developer <br/>
