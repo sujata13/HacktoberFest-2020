@@ -23,3 +23,6 @@ About: Developer <br/>
 
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
+
+Name: [Daniel Jordan](https://github.com/djordan17) <br />
+Place: Spain <br />
