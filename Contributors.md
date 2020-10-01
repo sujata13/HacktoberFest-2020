@@ -15,3 +15,7 @@ Place: India <br/>
 Name: [Padmasri](https://github.com/sujata13) <br/>
 Place: India <br/>
 About: Web developer <br/>
+
+Name: [Rishabh Jain](https://github.com/Rj-coder-iitian) <br/>
+Place: India <br/>
+About: Engineering student <br/>
