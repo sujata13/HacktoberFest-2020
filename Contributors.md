@@ -15,3 +15,7 @@ Place: India <br/>
 Name: [Padmasri](https://github.com/sujata13) <br/>
 Place: India <br/>
 About: Web developer <br/>
+
+Name: [Jay Prajapati](https://github.com/jay078) <br/>
+Place: India <br/>
+About: Web developer <br/>
