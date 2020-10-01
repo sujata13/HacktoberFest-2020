@@ -23,3 +23,7 @@ About: Developer <br/>
 
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
+
+Name: [Aleksej Komnenovic](https://github.com/komnen0v1c) <br/>
+Place: Serbia <br/>
+About: CS undergrad <br/>
