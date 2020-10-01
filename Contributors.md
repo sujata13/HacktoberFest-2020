@@ -16,5 +16,10 @@ Name: [Padmasri](https://github.com/sujata13) <br/>
 Place: India <br/>
 About: Web developer <br/>
 
+
+Name: [Kishmat Bhattarai](https://github.com/kishmat) <br/>
+Place: Nepal <br/>
+About: Developer <br/>
+
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
