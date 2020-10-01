@@ -17,9 +17,15 @@ Place: India <br/>
 About: Web developer <br/>
 
 
+<<<<<<< master
+Name: [Sneh](https://github.com/JoshiSneh) <br/>
+Place: India <br/>
+About: Web developer <br/>
+=======
 Name: [Kishmat Bhattarai](https://github.com/kishmat) <br/>
 Place: Nepal <br/>
 About: Developer <br/>
 
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
+>>>>>>> master
