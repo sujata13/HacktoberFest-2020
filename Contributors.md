@@ -16,6 +16,15 @@ Name: [Padmasri](https://github.com/sujata13) <br/>
 Place: India <br/>
 About: Web developer <br/>
 
+
 Name: [Rishabh Jain](https://github.com/Rj-coder-iitian) <br/>
 Place: India <br/>
 About: Engineering student <br/>
+
+
+Name: [Kishmat Bhattarai](https://github.com/kishmat) <br/>
+Place: Nepal <br/>
+About: Developer <br/>
+
+Name: [Ke Xin](https://github.com/pockii) <br />
+Place: Singapore <br /> 
