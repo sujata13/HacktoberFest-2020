@@ -15,3 +15,7 @@ Place: India <br/>
 Name: [Padmasri](https://github.com/sujata13) <br/>
 Place: India <br/>
 About: Web developer <br/>
+
+Name: [Hitesh Goyal](https://github.com/Hiteshgoyal1711) <br/>
+Place: India <br/>
+About: Developer <br/>
