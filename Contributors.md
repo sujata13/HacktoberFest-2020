@@ -15,3 +15,8 @@ Place: India <br/>
 Name: [Padmasri](https://github.com/sujata13) <br/>
 Place: India <br/>
 About: Web developer <br/>
+
+Name: [Surya Sekhar Datta](https://github.com/SuryaSekhar14) <br/>
+Place: India <br/>
+About: Student <br/>
+
