@@ -1,4 +1,6 @@
 /* Implementation of QuickSort in C++ */
+// Average time Complexity: O(n log n)
+
 #include<iostream> 
 using namespace std;
 
@@ -62,6 +64,10 @@ int main() {
 	display(arr, n); 
 	return 0; 
 } 
-
-// Avg time Complexity:	O(n log n)
+// Output
+/*
+Enter size of array: 10
+Enter element of array: 3 7 3 6 5 311 2 45 23 2
+Sorted array: 2 2 3 3 5 6 7 23 45 311 
+*/
 
