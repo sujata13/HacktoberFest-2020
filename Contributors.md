@@ -23,3 +23,7 @@ About: Developer <br/>
 
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
+
+Name: [Aman Kumar Soni](https://github.com/computerwala) <br/>
+Place: India <br/>
+About: Developer <br/>
