@@ -1,0 +1,27 @@
+//peterson
+#include<stdio.h>
+int main()
+{
+	int a,b,c,d,f,g,h,i=0;
+	printf("enter number");
+	scanf("%d",&a);
+	c=a;
+	while(a>0)
+	{
+		b=a%10;
+		g=b;
+		while(b>1)
+		{
+			f=b-1;
+			g=g*f;
+			b=b-1;
+		}
+		i=i+g;
+		a=a/10;
+	}
+	if(i==c)
+	printf("peterson's number");
+	else
+	printf("not peterson's number");
+	return 0;
+}
