@@ -23,3 +23,7 @@ About: Developer <br/>
 
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
+
+Name: [Manas Yadav](https://github.com/xMaNaSx) <br/>
+Place: India <br/>
+About: Student <br/>
