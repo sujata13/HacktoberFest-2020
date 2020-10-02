@@ -117,5 +117,9 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
+Name: [Deepti Sharma](https://github.com/dsdeeptisharma) <br/>
+Place: Canada <br/>
+About: Masters Student <br/>
+
 
 
