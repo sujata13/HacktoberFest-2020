@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: blue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:  green;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.blue{
+  color: blue;
+}
+.contactitems{
+  margin-right: 64%;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+   <div class="container">
+    <div style="text-align:center" class="contactitems">
+    <h2>Contact Us</h2>
+    <p>Far far away, behind the world montains, far from the countries Vokalia
+      and Consonantia, there live the blind textes
+    </p>
+  </div>
+  <div class="row">
+    <div class="column">
+           <h2>Call Or Email</h2>
+           <p>Support, Sales, and Account Management Services are currently
+              available in English.
+           </p>
+           <h3>Support</h3>
+           <p>+800 3005 4300</p>
+            <p class="blue">Contact Support</p>
+            <p>Our technical support is available by phone or email form 11am to 
+              11pm BST,Monady through Friday
+            </p> 
+            <h3>Sales</h3>
+            <p>+800 3005 4300</p>
+             <p class="blue">Contact Sales</p>
+             <p>Our technical support is available by phone or email form 11am to 
+               11pm BST,Monady through Friday
+             </p> 
+             <h3>General queries</h3>
+             <p class="blue">hello@website</p>
+
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <div style="float:left;">
+        <input type="text" id="fname" name="firstname" placeholder="Fisrt Name">
+      </div>
+      <div style="float:left; margin-left: 23px;">
+        <input type="text" id="fname" name="firstname" placeholder="LastName">
+      </div>
+        <input type="text" id="lname" name="lastname" placeholder="Company Name">
+        <select id="country" name="Department" aria-placeholder="Select Department">
+          <option value="cse">CSE</option>
+          <option value="ece">ECE</option>
+          <option value="eee">EEE</option>
+        </select>       
+        <textarea id="subject" name="subject" placeholder="How can I Help You?" style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
