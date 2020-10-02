@@ -1,5 +1,9 @@
 ## Contributors Details
 
+Name: [Tej Grover](https://github.com/tejgrover) <br/>
+Place: India <br/>
+About: newbie developer <br/>
+
 Name: [Sujata Mishra](https://github.com/sujata13) <br/>
 Place: India <br/>
 About: MERN Stack Developer <br/>
