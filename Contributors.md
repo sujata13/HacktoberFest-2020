@@ -64,6 +64,10 @@ About: Developer <br/>
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
 
+Name: [Harshit Bhatt](https://github.com/harshitbhatt69) <br/>
+Place: India <br/>
+About: Developer <br/>
+
 Name: [Naman Kansal](https://github.com/NamanKansal230505) <br/>
 Place: India <br/>
 About: Java Developer <br/>
