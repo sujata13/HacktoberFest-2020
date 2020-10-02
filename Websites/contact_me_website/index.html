@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Me</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" type="image/ico" href="logo.png" />
+
+	<link rel="stylesheet" type="text/css" href="cssFile.css" />
+
+	<script type="text/javascript">
+		function confirm(){
+			var n = document.getElementById('nm').value;
+			var e = document.getElementById('eml').value;
+			var m = document.getElementById('msg').value;
+
+			if(n != "" && e != "" && m != ""){
+				alert("I will reach out to you soon!");
+			}
+		}
+	</script>
+</head>
+<body>
+	<div class = "head">
+		<a href = "index.html" style="margin:3vh;">SRJ</a>
+		<a style="float:right;font-size:85%;margin-top:0.6vh;margin-right:3.4%" href = "index.html">Contact</a>
+	</div>
+	<div class = "bg">
+		<span id="imgBG" style="line-height:2em;">Get in Touch</span>
+	</div>
+	<div>
+		<form>
+			<table>
+				<tr>
+					<td style="text-align: right;"> <span>Name: </span> </td>
+					<td> <input type = "text" id="nm" required placeholder="Enter Name" /> </td>
+				</tr>
+				<tr>
+					<td style="text-align: right;"> <span>Email: </span> </td>
+					<td> <input type = "email" id="eml" required placeholder="Enter Email Address" /> </td>
+				</tr>
+				<tr>
+					<td style="text-align: right;"> <span>Message:</span> </td>
+					<td> <textarea id="msg" required rows="4" cols="53" placeholder="Enter your Message" style="text-align:center;"></textarea> </td>
+				</tr>
+				<tr>
+					<td colspan="2"> <input type="submit" value = "SUBMIT" style="background-color:#1bb6a1;color:white;border:0px black solid;padding:0.4em 1.2em;font-family:BigNoodleTitling;font-size:1em;border-radius:3px;" onclick = confirm()> </td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<div class="footer">
+		<a href="https://www.instagram.com/srjvisuals/"> <img class="icon" src="instagram-logo.svg"> </a>
+		<a href="https://www.behance.net/srjvisuals"> <img class="icon" src="behance-logo.svg"> </a>
+		<a href="https://github.com/srjnm"> <img class="icon" src="github-logo.svg"> </a>
+	</div>
+</body>
+</html>
