@@ -25,3 +25,8 @@ Place: Singapore <br />
 
 Name: [Rimjhim Singh](https://github.com/Rimjhim27)<br/>
 Place: India <br/>
+
+Name: [Manas Yadav](https://github.com/xMaNaSx) <br/>
+Place: India <br/>
+About: Student <br/>
+
