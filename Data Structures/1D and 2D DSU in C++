@@ -1,0 +1,52 @@
+// 1-D
+vi parent(MAX, -1), sz(MAX, 1);
+struct DSU {
+    DSU(int n) {
+        for(int i=1;i<=n;i++) parent[i] = -1, sz[i] = 1;
+    }
+
+    int getpar(int n) {
+        if(parent[n] < 0) return n;
+        return parent[n] = getpar(parent[n]);
+    }
+    void merge(int x,int y) {
+        int a = getpar(x), b = getpar(y);
+        if(sz[a] < sz[b]) swap(a,b);
+        if(a != b) parent[a] += parent[b], parent[b] = a, sz[a] += sz[b], sz[b] = 0;
+    }
+    int getsize(int n) {
+        int a = getpar(n);
+        return sz[a];
+    }
+
+};
+
+
+// 2-D
+map<pii, pii> parent;
+map<pii,int> sz;
+struct DSU {
+    DSU(int n, int m) {
+        for(int i=0;i<n;i++) {
+            for(int j=0;j<m;j++) parent[{i,j}] = {-1,-1}, sz[{i,j}] = 1;
+        }
+    }
+
+    pii getpar(pii n) {
+        if(parent[n].first < 0 && parent[n].second < 0) return n;
+        return parent[n] = getpar(parent[n]);
+    }
+    void merge(pii x,pii y) {
+        pii a = getpar(x), b = getpar(y);
+        if(sz[a] < sz[b]) swap(a,b);
+        if(a != b) {
+            parent[a].first += parent[b].first, parent[a].second += parent[b].second;
+            parent[b] = a, sz[a] += sz[b], sz[b] = 0;
+        }
+    }
+    int getsize(pii n) {
+        pii a = getpar(n);
+        return sz[a];
+    }
+
+};
