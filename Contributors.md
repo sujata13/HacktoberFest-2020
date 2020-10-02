@@ -71,6 +71,9 @@ Name: [Manas Yadav](https://github.com/xMaNaSx) <br/>
 Place: India <br/>
 About: Student <br/>
 
+Name: [Gaurang Keluskar](https://github.com/gaurangkeluskar22) <br/>
+Place: India <br/>
+About: Student <br/>
 
 Name: [Rishitha Vurimi](https://github.com/rishitha24) <br/>
 Place: India <br/>
@@ -82,3 +85,4 @@ Place: India <br/>
 Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
+
