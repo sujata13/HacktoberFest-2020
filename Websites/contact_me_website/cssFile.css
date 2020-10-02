@@ -1,0 +1,93 @@
+@font-face { font-family: BigNoodleTitling; src: url('big_noodle_titling.ttf'); }
+@font-face { font-family: Futura Md BT; src: url('futura_medium_bt.ttf'); }
+
+@viewport{
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
+
+@-ms-viewport{
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
+
+table{
+	text-align: center;
+}
+td{
+	padding: 1vh 0vh;
+	margin: 0vh;
+}
+
+body{
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
+.head{
+	background-color: black;
+	height: 2%;
+	color: white;
+	font-family: BigNoodleTitling;
+	font-size: 300%;
+	padding-top: 0.8vh;
+	padding-bottom: 0.8vh;
+}
+form{
+	font-family: Futura Md BT;
+	color: black;
+	padding: 4vh 2vh;
+	font-size: 130%;
+	text-align: center;
+}
+input{
+	font-family: Futura Md BT;
+	padding: 1vh 6vw;
+	text-align: center;
+	font-size: 80%;
+	margin: 0vh;
+	color: rgb(22, 80, 72);
+}
+textarea{
+	color: rgb(22, 80, 72);
+	width: 80%;
+	font-family: Futura Md BT;
+	font-size: 80%;
+	padding: 6%;
+}
+a:link{
+	color: white;
+	text-decoration: none;
+}
+a:visited{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: #1bb6a1;
+	text-decoration: none;
+}
+.bg{
+	background-size: cover;
+	background-image:url("patternbg.jpg");
+	height: 14vh;
+	width: 100%;
+	color: white;
+	font-family: BigNoodleTitling;
+	font-size: 7vh;
+	text-align: center;
+	text-shadow: 3px 3px 10px rgb(10,10,10);
+}
+.icon{
+	height: 4vh;
+	padding: 1vh
+}
+table{
+	margin-left:auto; 
+    margin-right:auto;
+}
+.footer{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
