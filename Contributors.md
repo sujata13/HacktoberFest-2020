@@ -20,6 +20,9 @@ Name: [Padmasri](https://github.com/sujata13) <br/>
 Place: India <br/>
 About: Web developer <br/>
 
+
+Name: [Jay Prajapati](https://github.com/jay078) <br/>
+
 Name: [Swapnil Biswas](https://github.com/pilgrim-1610) <br/>
 Place: India <br/>
 About: Web developer <br/>
@@ -74,5 +77,4 @@ Place: India <br/>
 Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
-
 
