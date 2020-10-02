@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript Json</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+  </head>
+
+  <body>
+    <input type="text" placeholder="Username..." id="myInput" />
+
+    <button type="button" onclick="getInputValue();">
+      Get Value From API
+    </button>
+
+    <div class="mypanel"></div>
+    <div class="demo"></div>
+    <img id="urlimg" width="150" />
+    
+
+    
+    <button onclick="download()" id="downloadimgbtn" style="visibility: hidden">
+      Download Image
+    </button>
+
+    <script>
+
+  function downloadreels() {
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', 'https://instagram.famd1-3.fna.fbcdn.net/v/t50.2886-16/120323924_1046612215783866_6512888592847961509_n.mp4?_nc_ht=instagram.famd1-3.fna.fbcdn.net&_nc_cat=106&_nc_ohc=XNsw8yF2R6IAX_4NT6S&oe=5F753410&oh=670ae30c9ce0094712b780564c404137', true);
+  xhr.responseType = 'blob';
+  xhr.onload = function() {
+    var urlCreator = window.URL || window.webkitURL;
+    var imageUrl = urlCreator.createObjectURL(this.response);
+    var tag = document.createElement('a');
+    tag.href = imageUrl;
+    tag.target = '_blank';
+    tag.download = 'sample.mp4';
+    document.body.appendChild(tag);
+    tag.click();
+    document.body.removeChild(tag);
+  };
+  xhr.onerror = err => {
+    alert('Failed to download picture');
+  };
+  xhr.send();
+}
+      function getInputValue() {
+        var inputVal = document.getElementById("myInput").value;
+        $.getJSON("https://www.instagram.com/" + inputVal+"/?__a=1", function (data) {
+          var text = `
+          Name: ${data["graphql"]["user"]["full_name"]}<br>
+        Followers: ${data["graphql"]["user"]["edge_followed_by"]["count"]}<br>`;
+        var text2 = `Bio: ${data["graphql"]["user"]["biography"]}`;
+        var res = text2.split('\n').join('<br>');
+      
+       
+        $(".demo").html(res)
+       
+          document.getElementById("downloadimgbtn").style.visibility =
+            "visible";
+
+          console.log(data);
+
+          var delayInMilliseconds = 60000; //1 second
+
+          setTimeout(function () {
+            console.clear();
+            console.info("Console Data Cleared Successfully");
+          }, delayInMilliseconds);
+          document.getElementById("urlimg").src = `${data["graphql"]["user"]["profile_pic_url_hd"]}`;
+          $(".mypanel").html(text);
+        });
+      }
+  
+    </script>
+  </body>
+</html>
