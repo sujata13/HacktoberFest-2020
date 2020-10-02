@@ -27,3 +27,9 @@ Place: Singapore <br />
 Name: [Suman Pandit](https://github.com/dev-sumanpandit) <br />
 Place: Nepal <br />
 About: Developer <br />
+
+
+Name: [Manas Yadav](https://github.com/xMaNaSx) <br/>
+Place: India <br/>
+About: Student <br/>
+
