@@ -20,6 +20,10 @@ Name: [Padmasri](https://github.com/sujata13) <br/>
 Place: India <br/>
 About: Web developer <br/>
 
+Name: [Shubhika Shubhavee](https://github.com/shubhavee) <br/>
+Place: India <br/>
+About: Web developer <br/>
+
 Name: [Aayush Agarwal](https://github.com/KylixMedusa) <br/>
 Place: India <br/>
 About: Front End Developer <br/>
