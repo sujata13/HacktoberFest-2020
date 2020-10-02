@@ -16,7 +16,6 @@ Name: [Padmasri](https://github.com/sujata13) <br/>
 Place: India <br/>
 About: Web developer <br/>
 
-
 Name: [Kishmat Bhattarai](https://github.com/kishmat) <br/>
 Place: Nepal <br/>
 About: Developer <br/>
@@ -24,6 +23,10 @@ About: Developer <br/>
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
 
+Name: [Rimjhim Singh](https://github.com/Rimjhim27)<br/>
+Place: India <br/>
+
 Name: [Manas Yadav](https://github.com/xMaNaSx) <br/>
 Place: India <br/>
 About: Student <br/>
+
