@@ -48,6 +48,10 @@ About: Developer <br/>
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
 
+Name: [Nkosana Daniel Mlandu](https://github.com/Nkosana-263) <br/>
+Place: Zimbabwe <br/>
+About: Engineering student <br/>
+
 Name: [Manas Yadav](https://github.com/xMaNaSx) <br/>
 Place: India <br/>
 About: Student <br/>
@@ -58,4 +62,5 @@ Place: India <br/>
 Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
+
 
