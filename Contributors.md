@@ -87,6 +87,10 @@ Name: [Aleksej Komnenovic](https://github.com/komnen0v1c) <br/>
 Place: Serbia <br/>
 About: CS undergrad <br/>
 
+Name: [Pattarapon Tritan](https://github.com/toponever) <br/>
+Place: Thailand <br/>
+About: Student <br/>
+
 Name: [Rimjhim Singh](https://github.com/Rimjhim27)<br/>
 Place: India <br/>
 
