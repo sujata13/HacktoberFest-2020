@@ -17,11 +17,11 @@ Everyone is encouraged to participate, regardless of your skill level. This is a
 
 Incredibly, Bruno the CEO of SuYog Corp has built the fastest growing tech start up in Silicon Valley, without ever having launched a website. Bruno's marketing team are insisting they need a website in order to gain the confidence of the potential clients to reach this quarters sales targets.
 
-Bruno has put together a quick [Froala mockup](/design-assets/design-mockup.png) to demonstrate the layout and simplistic design they are looking for. Although Bruno did request the website be as immaculate and as impressive as his hair, the design is totally open to interpretation and modification during the first iteration of development.
+Bruno has put together a quick [Froala mockup](https://github.com/sujata13/HacktoberFest-2020/blob/master/Day02/Design%20Assets/design-mockup.png) to demonstrate the layout and simplistic design they are looking for. Although Bruno did request the website be as immaculate and as impressive as his hair, the design is totally open to interpretation and modification during the first iteration of development.
 
 ## Getting Started
 
-Ok, so you have read the brief and checked out the [designs](/design-assets/design-mockup.png). Ready to contribute, but not sure how or where to start?
+Ok, so you have read the brief and checked out the [designs](https://github.com/sujata13/HacktoberFest-2020/blob/master/Day02/Design%20Assets/design-mockup.png). Ready to contribute, but not sure how or where to start?
 
 > If you've never made a pull request before, or participated in an open-source project, we recommend taking a look at our [Start Here Guidelines](https://github.com/sujata13/HacktoberFest-2020/ReadMe.md). This guide has everything you need to learn about open-source, with a step-by-step guide to making your very first PR.
 > Once you've got your feet wet, you're ready to come back and dive into Hacktoberfest fun!
