@@ -23,7 +23,7 @@ Bruno has put together a quick [Froala mockup](https://github.com/sujata13/Hackt
 
 Ok, so you have read the brief and checked out the [designs](https://github.com/sujata13/HacktoberFest-2020/blob/master/Day02/Design%20Assets/design-mockup.png). Ready to contribute, but not sure how or where to start?
 
-> If you've never made a pull request before, or participated in an open-source project, we recommend taking a look at our [Start Here Guidelines](https://github.com/sujata13/HacktoberFest-2020/ReadMe.md). This guide has everything you need to learn about open-source, with a step-by-step guide to making your very first PR.
+> If you've never made a pull request before, or participated in an open-source project, we recommend taking a look at our [Start Here Guidelines](https://github.com/sujata13/HacktoberFest-2020/blob/master/README.md). This guide has everything you need to learn about open-source, with a step-by-step guide to making your very first PR.
 > Once you've got your feet wet, you're ready to come back and dive into Hacktoberfest fun!
 
 1. First up you need to fork (make a copy) of this repo to your Github account.(Don't forget to Star the Repo)
