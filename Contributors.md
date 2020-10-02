@@ -27,3 +27,8 @@ Place: Singapore <br />
 Name: [Manas Yadav](https://github.com/xMaNaSx) <br/>
 Place: India <br/>
 About: Student <br/>
+
+Name: [Gaurang Keluskar](https://github.com/gaurangkeluskar22) <br/>
+Place: India <br/>
+About: Student <br/>
+
