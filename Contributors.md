@@ -60,6 +60,10 @@ About: Developer <br/>
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
 
+Name: [Aleksej Komnenovic](https://github.com/komnen0v1c) <br/>
+Place: Serbia <br/>
+About: CS undergrad <br/>
+
 Name: [Rimjhim Singh](https://github.com/Rimjhim27)<br/>
 Place: India <br/>
 
@@ -89,5 +93,6 @@ Place: India <br/>
 Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
+
 
 
