@@ -5,6 +5,10 @@ Place: India <br/>
 About: MERN Stack Developer <br/>
 
 
+Name: [Sandi Aris](https://github.com/sandi-aris) <br/>
+Place: Indonesia <br/>
+About: Java developer <br/?
+
 Name: [Chris Milson](https://gitub.com/chrismilson) <br/>
 Place: Japan <br/>
 About: Mathematician <br/>
@@ -15,6 +19,7 @@ Place: India <br/>
 Name: [Padmasri](https://github.com/sujata13) <br/>
 Place: India <br/>
 About: Web developer <br/>
+
 
 
 Name: [Kishmat Bhattarai](https://github.com/kishmat) <br/>
@@ -31,3 +36,4 @@ About: Student <br/>
 Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
+
