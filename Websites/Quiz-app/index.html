@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ninja Quiz</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+  <!-- top section -->
+  <div class="intro py-3 bg-white text-center">
+    <div class="container">
+      <h2 class="text-primary display-3 my-4">Know it, Beat it!</h2>
+    </div>
+  </div>
+
+  <!-- result section -->
+  <div class="result py-4 d-none bg-light text-center">
+    <div class="container lead">
+      <p>You know <span class="text-primary display-4 p-3">0%</span> about the Virus</p>
+    </div>
+  </div>
+
+  <!-- quiz section -->
+  <div class="quiz py-4 bg-primary">
+    <div class="container">
+      <h2 class="my-5 text-white">On with the questions...</h2>
+
+      <form class="quiz-form text-light">
+        <div class="my-5">
+          <p class="lead font-weight-normal">1. The novel coronavirus responsible for the outbreak is called:</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q1" value="A">
+            <label class="form-check-label">COVID-19</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q1" value="B">
+            <label class="form-check-label">SARS-CoV-2</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">2. Scientists believe that COVID-19 is spread primarily through:</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q2" value="A" >
+            <label class="form-check-label">Respiratory droplets that pass from person to person</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q2" value="B">
+            <label class="form-check-label">Food packaging and other contaminated surfaces</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">3. To properly clean your hands, experts recommend washing them with soap and water for at least ___ seconds, or using a hand sanitizer that contains at least ___ percent alcohol:</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q3" value="A" >
+            <label class="form-check-label">15; 70</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q3" value="B">
+            <label class="form-check-label">20; 60</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">4. Following social distancing guidelines means all of the following are acceptable, except:</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q4" value="A" >
+            <label class="form-check-label">Going to a group meeting or event, as long as no one shakes hands or hugs</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q4" value="B">
+            <label class="form-check-label">Delivering groceries to a loved one.</label>
+          </div>
+        </div>
+        <div class="text-center">
+          <input type="submit" class="btn btn-light"> 
+        </div>
+      </form>
+
+    </div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
