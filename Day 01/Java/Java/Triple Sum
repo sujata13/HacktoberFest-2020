@@ -1,0 +1,88 @@
+// Program finds out a triplet whose sum is equal to a specific integer read as an input from user.
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Runner {
+
+    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    
+    public static int[] takeInput() throws IOException {
+        int size = Integer.parseInt(br.readLine().trim());
+        int[] input = new int[size];
+
+        if (size == 0) {
+            return input;
+        }
+        
+        String[] strNums; 
+        strNums = br.readLine().split("\\s");
+        
+
+        for (int i = 0; i < size; ++i) {
+            input[i] = Integer.parseInt(strNums[i]);
+        }
+
+        return input;
+    }
+
+
+    public static void main(String[] args) throws NumberFormatException, IOException {
+        int t = Integer.parseInt(br.readLine().trim());
+
+        while(t > 0) {
+
+            int[] input = takeInput();
+            int x = Integer.parseInt(br.readLine().trim());
+            System.out.println(Solution.findTriplet(input, x));
+
+            t -= 1;
+        }
+    }
+}
+
+public class Solution{	
+
+	public static void tripletSum(int[] input, int x){
+		/* Your class should be named Solution
+		 * Don't write main().
+		 * Don't read input, it is passed as function argument.
+		 * Print output and don't return it.
+	 	 * Taking input is handled automatically.
+		*/
+		int n=input.length;
+    
+      for(int i=0;i<n-2;i++){
+        for(int j=i+1;j<n-1;j++){
+          for(int k=j+1;k<n;k++){
+            if(input[i]+input[j]+input[k]==x){
+                if(input[i]>=input[j] && input[i]>=input[k]) {
+                      
+							if(input[j]>input[k]) {
+								System.out.println(input[k] + " "+ input[j] + " " + input[i]);
+							}else {
+								System.out.println(input[j] + " "+ input[k] + " " + input[i]);
+							}
+							
+						}else if(input[j]>=input[i] && input[j]>=input[k]) {
+							if(input[i]>input[k]) {
+								System.out.println(input[k] + " "+ input[i] + " " + input[j]);
+							}else {
+								System.out.println(input[i] + " "+ input[k] + " " + input[j]);
+							}
+						}else {
+							if(input[i]>input[j]) {
+								System.out.println(input[j] + " "+ input[i] + " " + input[k]);
+							}else {
+								System.out.println(input[i] + " "+ input[j] + " " + input[k]);
+							}
+						}
+              }
+            
+          }
+        }
+      }
+    }
+} 
+	
+

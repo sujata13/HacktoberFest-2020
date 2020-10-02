@@ -1,12 +1,40 @@
 # HacktoberFest-2020
 Repository designed for beginner to contribute to open-source 
 
+
+## ❓ What is Hacktoberfest 2020?
+
+Hacktoberfest 2020 is a month long virtual festival event to celebrate open source contributions presented by Digital Ocean, Intel and DEV. It is the easiest way to get into open source!
 https://hacktoberfest.digitalocean.com/
+During the entire month of October 2020, all you have to do is contribute to any open source projects and open at least 4 pull requests. Yes, any project and any kind of contributions. You don’t need to be an expert in programming or coding. It can be a be a bug fix, improvement, or even a documentation change! And win an awesome T-shirt and awesome stickers.
+
+## 😕 Why Should I Contribute?
+
+The Hacktoberfest’s simple plain objective is:
+
+    Support open source and earn a limited edition T-shirt!
+
+But, it’s not just about the t-shirts or stickers. Its about supporting open source. Its about celebrating open source, and giving it back. If you’ve never contributed to open source before, this is the perfect time to get started because Hacktoberfest provides a large list of available contribution opportunities (and yes, there are always plenty for beginners too).
+
+## 👌 What Can I Contribute?
+
+Hacktoberfest® is open to everyone in our global community. Whether you’re a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to complete the challenge.
+
+It doesn’t need to be code. It can be even documentation. Or spelling fix.
+
+You can contribute to any open source project hosted on Github.com and contribute anything between October 1 to October 31 midnight in 2020. You will find plenty of issues labeled with hacktoberfest or good-first-issue etc on Github. These will be the simple ones most probably and easy to fix.
 
 ## How to contribute
 Submit your pull request here for Hacktoberfest-2020 in any language you prefer, if language folder not present, create one as a part of it, after script add your name and GitHub profile into Contributors.md file.
 
-Hacktoberfest is a month long virtual festival event to celebrate open source contributions presented by DigitalOcean and DEV. It is the easiest way to get into open source!
+👕 Win Your T-Shirt
+
+In past years, shirts have arrived in November or December, depending on how far you live from San Francisco.
+
+The Digital Ocean team should eventually contact you asking for your shirt size and shipping address. (Keep in mind they are shipping 40,000 shirts so this process will take a while.) And yes, they will ship internationally.
+
+Don’t miss this opportunity. Start contributing to open source and get a limited edition T-shirt for Free! And also, Stickers!
+
 
 ![image here](https://github.com/sujata13/HacktoberFest-2020/blob/master/hacktober.png)
 
@@ -125,7 +153,7 @@ We’ll first go over configuring a remote for the fork, then syncing the fork.
 
 Next up, you’ll have to specify a new remote upstream repository for us to sync with the fork. This will be the original repository that you forked from. you’ll have to do this with the git remote add command.
 
-##### ` git remote add upstream https://github.com/acmbvp/Hacktoberfest.git `
+##### ` git remote add upstream https://github.com/sujata13/HacktoberFest-2020 `
 
 In this example, // upstream // is the shortname we have supplied for the remote repository since in terms of Git, “upstream” refers to the repository that you cloned from. If you want to add a remote pointer to the repository of a collaborator, you may want to provide that collaborator’s username or a shortened nickname for the shortname.
 
