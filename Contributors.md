@@ -23,3 +23,9 @@ About: Developer <br/>
 
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
+
+Name: [Darshan Gohel](https://github.com/dkgohel) <br/>
+Place: India<br/>
+About: Software Developer<br/>
+
+
