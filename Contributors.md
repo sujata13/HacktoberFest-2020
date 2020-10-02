@@ -22,4 +22,8 @@ Place: Nepal <br/>
 About: Developer <br/>
 
 Name: [Ke Xin](https://github.com/pockii) <br />
-Place: Singapore <br /> 
+Place: Singapore <br />
+
+Name: [Suman Pandit](https://github.com/dev-sumanpandit) <br />
+Place: Nepal <br />
+About: Developer <br />
