@@ -71,6 +71,10 @@ Name: [Manas Yadav](https://github.com/xMaNaSx) <br/>
 Place: India <br/>
 About: Student <br/>
 
+Name: [Lucas Guiss](https://github.com/lucasguiss) <br/>
+Place: Brazil <br/>
+About: Software Engineer <br/>
+
 Name: [Gaurang Keluskar](https://github.com/gaurangkeluskar22) <br/>
 Place: India <br/>
 About: Student <br/>
@@ -85,4 +89,5 @@ Place: India <br/>
 Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
+
 
