@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
