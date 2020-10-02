@@ -20,6 +20,10 @@ Name: [Padmasri](https://github.com/sujata13) <br/>
 Place: India <br/>
 About: Web developer <br/>
 
+Name: [Swapnil Biswas](https://github.com/pilgrim-1610) <br/>
+Place: India <br/>
+About: Web developer <br/>
+
 Name: [Suraj NM](https://github.com/srjnm) <br/>
 Place: India <br/>
 About: Student <br/>
