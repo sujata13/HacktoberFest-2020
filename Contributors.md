@@ -53,6 +53,9 @@ About: Developer <br/>
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
 
+Name: [Rimjhim Singh](https://github.com/Rimjhim27)<br/>
+Place: India <br/>
+
 Name: [Nkosana Daniel Mlandu](https://github.com/Nkosana-263) <br/>
 Place: Zimbabwe <br/>
 About: Engineering student <br/>
