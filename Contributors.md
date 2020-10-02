@@ -23,3 +23,7 @@ About: Developer <br/>
 
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
+
+Name: [Lucas Guiss](https://github.com/lucasguiss) <br/>
+Place: Brazil <br/>
+About: Software Engineer <br/>
