@@ -41,6 +41,11 @@ Place: India<br/>
 About: Web dev <br/>
 
 
+Name: [Rishabh Jain](https://github.com/Rj-coder-iitian) <br/>
+Place: India <br/>
+About: Engineering student <br/>
+
+
 Name: [Kishmat Bhattarai](https://github.com/kishmat) <br/>
 Place: Nepal <br/>
 About: Developer <br/>
