@@ -60,6 +60,9 @@ About: Developer <br/>
 Name: [Ke Xin](https://github.com/pockii) <br />
 Place: Singapore <br /> 
 
+Name: [Naman Kansal](https://github.com/NamanKansal230505) <br/>
+Place: India <br/>
+About: Java Developer <br/>
 
 Name: [Yothin Homjan](https://github.com/yotheone0909) <br/>
 Place: Thailand <br/>
