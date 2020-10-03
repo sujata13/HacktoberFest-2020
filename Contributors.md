@@ -117,5 +117,7 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
-
+Name: [Simone Cheah](https://github.com/smcheah) <br/>
+Place: Australia <br/>
+About: Student <br/>
 
