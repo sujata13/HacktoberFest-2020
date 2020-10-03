@@ -117,5 +117,8 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
+Name: [Cherie B] (https://github.com/cheriesyb) <br>
+Place: Australia <br>
+About: Student <br>
 
 
