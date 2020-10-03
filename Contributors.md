@@ -117,5 +117,7 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
-
+Name: [Nishant Pandey](https://github.com/mrpandey1) <br/>
+Place: India <br/>
+About: Full Stack Developer <br/>
 
