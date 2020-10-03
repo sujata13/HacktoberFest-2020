@@ -117,5 +117,8 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
+Name: [Sonali Gupta](https://github.com/SonaliGupta25) <br/>
+Place: India <br/>
+About: Android/iOS Developer
 
 
