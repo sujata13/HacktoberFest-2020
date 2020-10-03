@@ -117,5 +117,7 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
-
+Name: [Shubham Arora](https://github.com/shubham976) <br/>
+Place: India <br/>
+About: web developer<br/>
 
