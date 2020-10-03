@@ -48,6 +48,17 @@ Sign up anytime between October 1 and October 31.
 # Rules
 To qualify for the official limited edition Hacktoberfest shirt, you must register and make four pull requests (PRs) between October 1-31 (in any time zone). PRs can be made to any public repo on GitHub, not only the ones with issues labeled Hacktoberfest. If a maintainer reports your pull request as spam or behavior not in line with the project’s code of conduct, you will be ineligible to participate. This year, the first 70,000 participants who successfully complete the challenge will earn a T-shirt.
 
+
+# Do's and Dont's of Hacktoberfest
+<h4>Don't: open pull requests with minor text edits on other people's repositories</h4>
+ If you're looking for a faster way to open four PR's and win, there's a better way!
+
+<h4>Do: Follow a repository's contribution guidelines</h4>
+ Almost every repo looking for help has a CONTRIBUTING.md file in it, read it first!
+
+<h4>Don't: feel intimidated</h4>
+ Register for an event and learn with a group, or connect with others in the Discord chat or Telegram Group(https://t.me/hacktober_fest_2020).
+
 ## Getting Started
 
 * Add your name to the CONTRIBUTORS.md file using following model
