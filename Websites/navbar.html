@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!-- Materialize Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Froala</title>
+
+    <style>
+        .btn.waves-effect.waves-light {
+            border: 3px solid #349ded;
+        }
+        
+        .chip {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav-wrapper white">
+        <div class="container">
+            <a href="#" class="brand-logo blue-text ">Froala</a>
+
+            <ul class="right">
+                <!-- Social button -->
+                <div class="chip hide-on-med-and-down">
+                    <i class="black-text fa fa-slack" style="font-size:20px"></i>
+                </div>
+                <div class="chip hide-on-med-and-down">
+                    <i id="twitter" class="black-text fa fa-twitter" style="font-size:20px"></i>
+                </div>
+                <div class="chip">
+                    <i id="github" class="black-text fa fa-github" style="font-size:20px"></i>
+                </div>
+
+                <!-- Contact button -->
+                <a class="right waves-effect waves-light btn white blue-text">Contact</a>
+            </ul>
+
+            <!-- For mobiles -->
+            <a href="#" class="sidenav-trigger black-text" data-target="mobile-links">
+                <i class="material-icons">menu</i>
+            </a>
+
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#" class="black-text">Home</a></li>
+                <li><a href="#" class="black-text">Features</a></li>
+                <li><a href="#" class="black-text">Testimonial</a></li>
+                <li><a href="#" class="black-text">Team</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- For mobiles -->
+    <ul class="sidenav " id="mobile-links">
+        <li><a href="#" class="black-text">Home</a></li>
+        <li><a href="#" class="black-text">Features</a></li>
+        <li><a href="#" class="black-text">Testimonial</a></li>
+        <li><a href="#" class="black-text">Team</a></li>
+    </ul>
+
+    <!-- Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(".sidenav").sidenav();
+        })
+
+        $("#twitter").click(function() {
+            window.location.replace("https://twitter.com/Hiruthic1");
+        })
+        $("#github").click(function() {
+            window.location.replace("https://github.com/hiruthic2002");
+        })
+    </script>
+
+</body>
+
+</html>
