@@ -1,0 +1,57 @@
+nav.textNavbarTitleIndex{
+    background-color: rgba(0, 0, 0, 0.226);
+    font-family:'Designil Font', 'Helvetica', sans-serif;
+}
+h5{
+    color: rgb(255, 255, 255);
+}
+
+.col-md-1 {
+    width: 8.33333333% !important;
+}
+.col-md-2 {
+    width: 16.66666667% !important;
+}
+.col-md-3 {
+    width: 25% !important;
+}
+.col-md-12 {
+    width: 100% !important;
+}
+.row [class*=col-]{
+    float: left !important;
+}
+img.imgUnderTitleSlide{
+    margin: 10px 0px 50px 0px;
+    width: 80%;
+    height: auto;
+}
+
+div.imageUnderSlideL{
+    position: relative;
+    text-align: right;
+}
+div.imageUnderSlideC{
+    position: relative;
+    text-align: center;
+}
+div.imageUnderSlideR{
+    position: relative;
+    text-align: left;
+}
+
+div.textUnderSlideL{
+    position: absolute;
+    top: 250px;
+    left: 136px;
+}
+div.textUnderSlideC{
+    position: absolute;
+    top: 250px;
+    left: 76px;
+}
+div.textUnderSlideR{
+    position: absolute;
+    top: 250px;
+    left: 15px;
+}
