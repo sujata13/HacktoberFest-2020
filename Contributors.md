@@ -114,7 +114,7 @@ Name: [Pawan Gorai](https://github.com/pawank0411) <br/>
 Place: India <br/>
 
 Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
-Place: Indonesia <br/>
+Place: Indonesia<br/>
 About: BACKEND Developer <br/>
 
 
