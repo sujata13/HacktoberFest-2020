@@ -118,4 +118,6 @@ Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
 
-
+Name: [Shivanshu Suryakar](https://github.com/jiminnpark) <br/>
+Place: India <br/>
+About : Computer Engineering Student
