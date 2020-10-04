@@ -51,11 +51,9 @@ Name: [Allen.Y](https://github.com/Alleny244)<br/>
 Place: India<br/>
 About: Web dev <br/>
 
-
 Name: [Rishabh Jain](https://github.com/Rj-coder-iitian) <br/>
 Place: India <br/>
 About: Engineering student <br/>
-
 
 Name: [Kishmat Bhattarai](https://github.com/kishmat) <br/>
 Place: Nepal <br/>
@@ -117,5 +115,7 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
-
+Name: [Irvin Dominin](https://github.com/IrvinDominin) <br/>
+Place: Italy <br/>
+About: FullStack Developer <br/>
 
