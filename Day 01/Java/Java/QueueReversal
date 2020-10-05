@@ -1,0 +1,103 @@
+// Program to implement Queue Reversal in Java
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Runner {
+
+	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+	public static Queue<Integer> takeInput() throws NumberFormatException, IOException {
+
+		int n = Integer.parseInt(br.readLine().trim());
+
+		String[] values = br.readLine().trim().split(" ");
+
+		Queue<Integer> queue = new LinkedList<>();
+
+		for (int i = 0; i < n; i++) {
+			queue.add(Integer.parseInt(values[i]));
+		}
+
+		return queue;
+
+	}
+
+	public static void main(String[] args) throws NumberFormatException, IOException {
+
+		int t = Integer.parseInt(br.readLine().trim());
+
+		while (t > 0) {
+			Queue<Integer> queue = takeInput();
+			Solution.reverseQueue(queue);
+
+			while (!queue.isEmpty()) {
+				System.out.print(queue.poll() + " ");
+			}
+
+			System.out.println();
+
+			t -= 1;
+		}
+	}
+}
+class QueueEmptyException extends Exception{
+    
+}
+public class Queue<T> {
+    private Node<T> front;
+    private Node<T> rear;
+    private int size=0;
+
+	public Queue() {
+        front=null;
+        rear=null;
+        size=0;
+
+	}
+
+	public void enqueue(T data) {
+        Node<T> newNode=new Node<>(data);
+        if(rear==null){
+            front=newNode;
+            rear=newNode;
+        }
+        else{
+            rear.next=newNode;
+            rear=newNode;
+        }size++;
+
+	}
+
+	public int size() {
+      return size;
+	}
+
+	public boolean isEmpty() {
+      return size==0;
+	}
+
+	public T dequeue() throws QueueEmptyException {
+       if(size==0){
+           throw new QueueEmptyException();
+       }
+        T temp=front.data;
+        front=front.next;
+        if(size==1){
+            rear=null;
+        }
+        size--;
+        return temp;
+	}
+    
+
+	public T front() throws QueueEmptyException {
+        if(size==0){
+            throw new QueueEmptyException();
+        }
+        return front.data;
+
+	}
+}
