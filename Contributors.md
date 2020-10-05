@@ -117,5 +117,7 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
-
+Name: [Meer Hamza](https://github.com/MeerHamza1421) <br/>
+Place: Pakistan <br/>
+About: CS student <br/>
 
