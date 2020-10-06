@@ -117,5 +117,7 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
-
+Name: [Arindam Ghosh](https://github.com/pappughosh) <br/>
+Place: India <br/>
+About: Frontend Developer <br/>
 
