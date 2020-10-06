@@ -117,5 +117,7 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
-
+Name: [Kunal Raut](https://github.com/zukonit14) <br/>
+Place: Pune,India <br/>
+About: Competitive Coder Android Developer <br/>
 
