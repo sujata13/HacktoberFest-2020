@@ -117,5 +117,7 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
-
+Name: [Naveen Reddy](https://github.com/naveenreddy2000) <br/>
+Place: India <br/>
+About: Student <br/>
 
