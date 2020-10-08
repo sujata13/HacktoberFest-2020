@@ -117,5 +117,9 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
+Name: [Guilherme Almeida](https://github.com/guidapinta) <br/>
+Place: Portugal <br/>
+About: Student <br/>
+
 
 
