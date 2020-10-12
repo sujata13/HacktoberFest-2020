@@ -117,5 +117,8 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
+Name: [Firda Austin](https://github.com/firdaaustin707) <br/>
+Place: Indonesia <br/>
+About: Android eveloper <br/>
 
 
