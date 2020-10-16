@@ -1,32 +1,20 @@
-def binary_search(l, num_find):
-    start = 0
-    end = len(l) - 1
-    mid = (start + end) // 2
-    
-    found = False
-    position = -1
-
-    while start <= end:
-        if l[mid] == num_find:
-            found = True
-            position = mid
-            break
-        
-        if num_find > l[mid]:
-            start = mid + 1
-            mid = (start + end) // 2
-        else:
-            end = mid - 1
-            mid = (start + end) // 2
-
-    return (found, position)
-
-if __name__=='__main__':
-    l = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-    num = input("Enter a number:")
-    num=int(num)
-    found = binary_search(l, num)
-    if found[0]:
-        print('Number %d found at position %d'%(num, found[1]+1))
+lst = [2,3,6,7,8,15]
+search_elm = 7
+flag = 0
+l = 0
+u = len(lst)-1
+while l<=u:
+    mid = (l+u)//2
+    if lst[mid] == search_elm:
+        flag = 1
+        break
     else:
-        print('Number %d not found'%num)
+        if lst[mid] < search_elm :
+            l = mid+1
+        else:
+            u = mid-1
+if flag == 1:
+    print("element found")
+else:
+    print("element not found")
+        
