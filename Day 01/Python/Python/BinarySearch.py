@@ -16,5 +16,5 @@ while l<=u:
 if flag == 1:
     print("element found")
 else:
-    print("element not found")
+    print("element not found ")
         
