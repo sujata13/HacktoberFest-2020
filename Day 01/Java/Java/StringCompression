@@ -1,0 +1,47 @@
+/* Program implements String compression for a character which is consecutively repeated more than once,
+replacing consecutive duplicate occurrences with the count of repetitions.  */
+
+import java.util.Scanner;
+
+public class Runner {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        String input = s.nextLine();
+        System.out.println(Solution.getCompressedString(input));
+    }
+}
+
+public class Solution {
+
+	public static String compress(String inputString) {
+		// Write your code here
+    
+    int count=0;
+		String output="";
+		char temp=inputString.charAt(0);
+		for(int i=0;i<inputString.length();i++) {
+			if(inputString.charAt(i)==temp) {
+				count++;
+			}
+			else {
+				if(count!=1) {
+				output=output+temp+count;
+				}
+				else if(count==1) {
+				output=	output+temp;
+				}
+				count=1;
+				temp=inputString.charAt(i);
+				
+			}
+		}
+		if(count!=1) {
+		output=output+temp+count;
+		}
+		else  {
+			output=output+temp;		
+        }
+		return output;
+	}
+
+}
