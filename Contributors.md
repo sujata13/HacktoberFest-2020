@@ -117,5 +117,7 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
-
+Name: [Oscar Montes](https://github.com/oscarlolero) <br/>
+Place: México <br/>
+About: Full stack web developer <br/>
 
