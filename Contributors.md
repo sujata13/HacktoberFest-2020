@@ -117,5 +117,7 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
-
+Name: [Juan Aguilera](https://github.com/Juan-41) <br/>
+Place: Mexico <br/>
+About: Student, BabyDev <br/>
 
