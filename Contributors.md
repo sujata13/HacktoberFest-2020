@@ -117,5 +117,9 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
+Name: [Juan Hernandez](https://github.com/Athemsj01) <br/>
+Place: Mexico <br/>
+About: Student <br/>
+
 
 
