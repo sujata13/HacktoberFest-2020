@@ -117,5 +117,8 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
+Name: [YEGANATHAN S](https://github.com/yeganathan) <br/>
+Place: India <br/>
+About: Front Developer<br/>
 
 
