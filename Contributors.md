@@ -117,5 +117,8 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
+Name: [Rogelio Manríquez](https://github.com/RogerMxG) <br/>
+Place: Mexico <br/>
+About: Student <br/>
 
 
