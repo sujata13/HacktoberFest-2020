@@ -117,5 +117,8 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
+Name: [Riza Radia Rivaldo](https://github.com/rizaradiarivaldo) <br/>
+Place: Indonesia <br/>
+About: MEVN Stack Developer <br/>
 
 
