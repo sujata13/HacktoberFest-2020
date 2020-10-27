@@ -117,5 +117,9 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
+Name: [Tridib Samanta](https://github.com/tridib2003) <br/>
+Place: India <br/>
+About: Software Engineer <br/>
+
 
 
