@@ -15,3 +15,5 @@ while(start<end){
 }
 cout<<arr<<endl;
 }
+/* another way to reverse a string would be to use the arr.reverse() function available in the C++ STL class. */
+/* editing just to check how to create a PR */
