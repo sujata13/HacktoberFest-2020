@@ -117,5 +117,7 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
-
+Name: [Eduard Scaueru](https://github.com/eduardscaueru) <br/>
+Place: Romania <br/>
+About: CS Undergrad <br/>
 
