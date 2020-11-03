@@ -117,5 +117,7 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
-
+Name: [Daniel Jordan](https://github.com/djordan17) <br />
+Place: Spain <br />
+About: Java Developer <br/>
 
