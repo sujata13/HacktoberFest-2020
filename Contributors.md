@@ -117,5 +117,9 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
+Name: [Tripti Rao](https://github.com/Tripti19-Rao) <br/>
+Place: India <br/>
+About: Student <br/>
+
 
 
