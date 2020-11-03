@@ -64,7 +64,7 @@ To qualify for the official limited edition Hacktoberfest shirt, you must regist
 * Add your name to the CONTRIBUTORS.md file using following model
 
 ```markdown
-Name: [YOUR NAME](Github Link)
+Name: https://github.com/RickyRGT/
 Place: city you belong to
 About: Short Intro (Optional)
 ```
