@@ -117,5 +117,11 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
+Name: [Rajat Garg](https://github.com/rajatgarg2) <br/>
+Place: India <br/>
+About: Flutter Developer <br/>
+
+
+
 
 
