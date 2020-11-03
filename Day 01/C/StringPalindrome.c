@@ -1,49 +1,50 @@
+ // A recursive C program to  
+// check whether a given number 
+// is palindrome or not 
 #include <stdio.h> 
-#include <stdlib.h> 
 #include <string.h> 
-
-#define MAX 500
-
-char stack[MAX];
-int t= -1;
-
-void push(char ele)
-{stack[++t] = ele;
-}
-
-char pop()
-{return stack[t--];
-}
-
-int palind(char str[])
-{int length = strlen(str);
- int i, mid = length / 2;
-
- for(i = 0; i < mid; i++) 
-    push(str[i]);
-
- if(length % 2 != 0) 
-    i++;
-
- while (str[i] != '\0')
-    {char ele = pop();
-	 if (ele != str[i])
-        return 0;
-     i++;
-    }
- return 1;
-}
-
-int main()
-{char str[MAX];
-
- printf("Enter a String of your choice:");
- gets(str);
-
- if(palind(str))
-   printf("Yes");
- else 
-   printf("No");
-    
- return 0;
-}
+#include <stdbool.h> 
+bool isPalRec(char str[],  
+              int s, int e) 
+{ 
+    // If there is only one character 
+    if (s == e) 
+    return true; 
+  
+    // If first and last 
+    // characters do not match 
+    if (str[s] != str[e]) 
+    return false; 
+  
+    // If there are more than  
+    // two characters, check if  
+    // middle substring is also  
+    // palindrome or not. 
+    if (s < e + 1) 
+    return isPalRec(str, s + 1, e - 1); 
+  
+    return true; 
+} 
+  
+bool isPalindrome(char str[]) 
+{ 
+int n = strlen(str); 
+  
+// An empty string is  
+// considered as palindrome 
+if (n == 0) 
+    return true; 
+  
+return isPalRec(str, 0, n - 1); 
+} 
+int main() 
+{ 
+    char str[] = "geeg"; 
+  
+    if (isPalindrome(str)) 
+    printf("Yes"); 
+    else
+    printf("No"); 
+  
+    return 0; 
+} 
