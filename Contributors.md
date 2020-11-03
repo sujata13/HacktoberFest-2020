@@ -51,6 +51,9 @@ Name: [Allen.Y](https://github.com/Alleny244)<br/>
 Place: India<br/>
 About: Web dev <br/>
 
+Name: [MONISHA MANDAL](https://github.com/monishamandal02) <br/>
+Place: INDIA <br/>
+About: Working on FRONTEND WEB DEVELOPMENT and MACHINE LEARNING. <br/>
 
 Name: [Rishabh Jain](https://github.com/Rj-coder-iitian) <br/>
 Place: India <br/>
