@@ -117,5 +117,7 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
-
+Name: [Raúl González Cruz](https://github.com/raulgonzalezcz) <br/>
+Place: Mexico <br/>
+About: Developer <br/>
 
