@@ -117,5 +117,7 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
-
+Name: [Vedant Mishra](https://github.com/ved-web) <br/>
+place: India <br/>
+About: Web Developer
 
