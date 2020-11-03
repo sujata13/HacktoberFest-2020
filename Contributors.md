@@ -117,5 +117,9 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
+Name: [Hal](https://github.com/sljtheultima) <br/>
+Place: Malaysia <br/>
+About: Developer <br/>
+
 
 
