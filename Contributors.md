@@ -1,5 +1,9 @@
 ## Contributors Details
 
+Name: [Deep Bag](https://github.com/deepbag) <br/>
+Place: India <br/>
+About: React Developer <br/>
+
 Name: [Tej Grover](https://github.com/tejgrover) <br/>
 Place: India <br/>
 About: newbie developer <br/>
