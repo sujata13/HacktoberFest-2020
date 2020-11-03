@@ -1,9 +1,9 @@
-import java.util.Scanner;
+import java.util.*;
 
 class pockii_SelectionSort {
 
     public static void selectionSort(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < arr.length-1; i++) {
             int minIndex = i;
             
             // Finding the smallest element
@@ -22,7 +22,7 @@ class pockii_SelectionSort {
 
     private static void printArray(int[] arr) {
         System.out.println("Sorted array: ");
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i <= arr.length-1; i++) {
             System.out.print(arr[i] + " ");
         }
         System.out.println("\n");
@@ -32,14 +32,14 @@ class pockii_SelectionSort {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter array size: ");
         int size = sc.nextInt();
-        int[] arr = new int[size];
+        int arr[] = new int[size];
 
         System.out.println("Enter array elements: ");
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
         }
 
-        sc.close();
+        //sc.close();
         return arr;
     }
     public static void main(String[] args) {
