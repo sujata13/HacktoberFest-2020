@@ -51,6 +51,10 @@ Name: [Allen.Y](https://github.com/Alleny244)<br/>
 Place: India<br/>
 About: Web dev <br/>
 
+Name: [Christine Tu](https://github.com/christinetu) <br/>
+Place: USA <br/>
+About: Junior Software Developer<br/>
+
 
 Name: [Rishabh Jain](https://github.com/Rj-coder-iitian) <br/>
 Place: India <br/>
