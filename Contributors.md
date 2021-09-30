@@ -117,5 +117,10 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
+Name: [Yash Agarwal](https://github.com/yashagarwaldev) <br/>
+Place: India <br/>
+About: Developer <br/>
+
+
 
 
