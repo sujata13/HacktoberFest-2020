@@ -1,10 +1,10 @@
-# HacktoberFest-2020
+# HacktoberFest-2021
 Repository designed for beginner to contribute to open-source 
 
 
-## ❓ What is Hacktoberfest 2020?
+## ❓ What is Hacktoberfest 2021?
 
-Hacktoberfest 2020 is a month long virtual festival event to celebrate open source contributions presented by Digital Ocean, Intel and DEV. It is the easiest way to get into open source!
+Hacktoberfest 2021 is a month long virtual festival event to celebrate open source contributions presented by Digital Ocean, Intel and DEV. It is the easiest way to get into open source!
 https://hacktoberfest.digitalocean.com/
 During the entire month of October 2020, all you have to do is contribute to any open source projects and open at least 4 pull requests. Yes, any project and any kind of contributions. You don’t need to be an expert in programming or coding. It can be a be a bug fix, improvement, or even a documentation change! And win an awesome T-shirt and awesome stickers.
 
@@ -36,7 +36,7 @@ The Digital Ocean team should eventually contact you asking for your shirt size 
 Don’t miss this opportunity. Start contributing to open source and get a limited edition T-shirt for Free! And also, Stickers!
 
 
-![image here](https://github.com/sujata13/HacktoberFest-2020/blob/master/hacktober.png)
+![image](https://user-images.githubusercontent.com/36507578/135815131-10d36244-ecfc-49fd-a525-223eefb29a12.png)
 
 # Event details
 Hacktoberfest® is open to everyone in our global community. Whether you’re a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to complete the challenge.
@@ -61,15 +61,6 @@ To qualify for the official limited edition Hacktoberfest shirt, you must regist
 
 ## Getting Started
 
-* Add your name to the CONTRIBUTORS.md file using following model
-
-```markdown
-Name: [YOUR NAME](Github Link)
-Place: city you belong to
-About: Short Intro (Optional)
-```
-## Support
-
 Check [Contribution](/CONTRIBUTION.md) Guide Before Contribution.
 
 ## Instructions:
@@ -80,7 +71,7 @@ Check [Contribution](/CONTRIBUTION.md) Guide Before Contribution.
 ###### Link to register: https://hacktoberfest.digitalocean.com/
 Click on "Start Hacking" and add your GitHub account.
 
-![Screenshot-HFST](https://github.com/bajajvinamr/HacktoberFest2020/blob/master/1.png)
+![image](https://user-images.githubusercontent.com/36507578/135815379-bab54737-ff6e-4f9b-8a15-9ebd6810a9ac.png)
 
 
 
