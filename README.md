@@ -61,7 +61,7 @@ To qualify for the official limited edition Hacktoberfest shirt, you must regist
 
 ## Getting Started
 
-Check [Contribution](/CONTRIBUTION.md) Guide Before Contribution.
+Check [Contribution](./CONTRIBUTION.md) Guide Before Contribution.
 
 ## Instructions:
 
