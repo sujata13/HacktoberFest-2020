@@ -117,5 +117,9 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
+Name: [Sandesh Dinkar](https://github.com/SldinkarGECA) <br/>
+Place: India <br/>
+About: IT student <br/>
+
 
 
