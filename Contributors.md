@@ -117,5 +117,8 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
+Name: [Ravneet Singh](https://github.com/ravneetsinghgaba) <br/>
+Place: India <br/>
+About: MERN Stack Engineer <br/>
 
 
