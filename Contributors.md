@@ -117,5 +117,6 @@ Name: [Muhammad Iqbal R](https://github.com/miqbalrr) <br/>
 Place: Indonesia <br/>
 About: BACKEND Developer <br/>
 
-
-
+Name: [Abdul Samad](https://github.com/Samadmemon991) <br/>
+Place: Hyderabad <br/>
+About: Aspiring Software Engineer <br/>
