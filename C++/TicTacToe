@@ -1,0 +1,93 @@
+#include <iostream>
+#include <vector>
+#include <string>
+
+using namespace std;
+
+// Function to print the Tic Tac Toe board
+void printBoard(const vector<vector<string>>& board) {
+    for (int i = 0; i < 3; ++i) {
+        for (int j = 0; j < 3; ++j) {
+            cout << board[i][j];
+            if (j < 2) cout << " | ";
+        }
+        cout << endl;
+        if (i < 2) cout << "---------" << endl;
+    }
+    cout << endl;
+}
+
+// Function to check if a player has won
+bool checkWin(const vector<vector<string>>& board, string player) {
+    for (int i = 0; i < 3; ++i) {
+        if (board[i][0] == player && board[i][1] == player && board[i][2] == player) return true;
+        if (board[0][i] == player && board[1][i] == player && board[2][i] == player) return true;
+    }
+
+    if (board[0][0] == player && board[1][1] == player && board[2][2] == player) return true;
+    if (board[0][2] == player && board[1][1] == player && board[2][0] == player) return true;
+
+    return false;
+}
+
+// Function to check if the board is full
+bool isBoardFull(const vector<vector<string>>& board) {
+    for (int i = 0; i < 3; ++i) {
+        for (int j = 0; j < 3; ++j) {
+            if (board[i][j] == " ") return false;
+        }
+    }
+    return true;
+}
+
+// Function to get a valid move from the player
+pair<int, int> getPlayerMove(const vector<vector<string>>& board, string player) {
+    int row, col;
+    while (true) {
+        cout << "Player " << player << ", enter your move (row and column): ";
+        cin >> row >> col;
+        if (row >= 0 && row < 3 && col >= 0 && col < 3 && board[row][col] == " ") {
+            return make_pair(row, col);
+        } else {
+            cout << "Invalid move. Try again." << endl;
+        }
+    }
+}
+
+int main() {
+    vector<vector<string>> board(3, vector<string>(3, " "));
+    string player1, player2;
+    cout << "Welcome to Tic Tac Toe!" << endl;
+    cout << "Enter Player 1's name: ";
+    cin >> player1;
+    cout << "Enter Player 2's name: ";
+    cin >> player2;
+
+    string currentPlayer = player1;
+
+    while (true) {
+        printBoard(board);
+        pair<int, int> move = getPlayerMove(board, currentPlayer);
+        int row = move.first;
+        int col = move.second;
+
+        board[row][col] = (currentPlayer == player1) ? "X" : "O";
+
+        if (checkWin(board, (currentPlayer == player1) ? "X" : "O")) {
+            printBoard(board);
+            cout << "Player " << currentPlayer << " wins!" << endl;
+            break;
+        }
+
+        if (isBoardFull(board)) {
+            printBoard(board);
+            cout << "It's a draw!" << endl;
+            break;
+        }
+
+        currentPlayer = (currentPlayer == player1) ? player2 : player1;
+    }
+
+    cout << "Thanks for playing!" << endl;
+    return 0;
+}
